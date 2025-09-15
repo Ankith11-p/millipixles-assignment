@@ -40,3 +40,75 @@
 .read-the-docs {
   color: #888;
 }
+
+.contacts {
+  max-width: 840px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.controls {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.filter {
+  flex: 1;
+  padding: 0.75rem 0.9rem;
+  border-radius : 10px;
+  border: 1px solid #3b3b3b;
+  background:  #1a1a1a;
+  color:   #eaeaea
+}
+
+.count {
+  font-size: 0.9rem;
+  color: #9aa0a6
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(260px,1fr));
+gap: 12px;
+}
+
+.item {
+  border: 1px solid  #2a2a2a;
+  border-radius: 12px;
+  padding: 14px;
+  background: linear-gradient(180deg,  rgba(255,255,255,0.03),   rgba(255,255,255,0.01)); 
+}
+
+.name {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.meta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.email, .phone {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.email:hover, .phone:hover {
+  text-decoration: underline;
+}
+
+.empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: #9aa0a6;
+}
+
+
+
